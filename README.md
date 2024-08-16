@@ -26,8 +26,8 @@ To get started with ChatApp, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/chat-app.git
-    cd chat-app
+    git clone https://github.com/cogniverse-net/react-bootstrap-chat-ui.git
+    cd react-bootstrap-chat-ui
     ```
 
 2. **Install dependencies**:
