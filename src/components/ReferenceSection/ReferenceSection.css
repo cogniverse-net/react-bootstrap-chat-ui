@@ -1,0 +1,32 @@
+/* ReferenceSection.css */
+
+.reference-section {
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    width: 500px; /* Adjust as needed */
+    background-color: var(--sidebar-bg); /* Match theme variable */
+    color: var(--sidebar-text); /* Match theme variable */
+    transition: transform 0.3s ease;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+    /* z-index: 1000; Ensure it appears above other content */
+}
+
+.reference-section.hidden {
+    transform: translateX(100%);
+}
+
+.reference-section.visible {
+    transform: translateX(0);
+}
+
+.toggle-reference-section {
+    position: absolute;
+    top: 10px;
+    left: -50px; /* Position outside of the section */
+    z-index: 1001; /* Ensure the button is above other content */
+}
+
+.content {
+    padding: 20px;
+}

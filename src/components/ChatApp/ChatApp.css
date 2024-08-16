@@ -1,0 +1,29 @@
+/* Navbar styles */
+.navbar {
+    background-color: var(--navbar-bg) !important;
+    margin-bottom: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--navbar-text) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: var(--navbar-link-active) !important;
+}
+
+.navbar-dark .navbar-brand {
+    color: var(--navbar-text) !important;
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%);
+}
+
+.chat-container {
+    display: flex;
+    height: calc(100vh - 56px); /* Adjust based on the navbar height */
+    width: 100%;
+    background-color: #f8f9fa;
+    transition: margin-right 0.3s ease-in-out;
+}

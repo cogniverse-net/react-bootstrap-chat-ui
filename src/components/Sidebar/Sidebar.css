@@ -1,0 +1,73 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100vh;
+    transition: width 0.3s ease, background-color 0.3s ease;
+    background-color: var(--sidebar-bg) !important;
+    color: var(--sidebar-text) !important;
+}
+
+.sidebar-shrunk {
+    width: 60px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--sidebar-accent) !important;
+}
+
+.profile-avatar {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+
+.search-bar {
+    margin: 1rem;
+    width:85%  !important;
+}
+
+.contacts-list {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 0;
+    list-style: none;
+}
+
+.contacts-list .list-group-item {
+    display: flex;
+    align-items: center;
+    background-color: var(--contact-bg) !important;
+    color: var(--contact-text) !important;
+    padding: 0.5rem;
+}
+
+.icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.toggle-sidebar-icon {
+    margin: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateX(0);
+}
+
+/* Shrunk Sidebar Styles */
+.sidebar-shrunk .profile h5,
+.sidebar-shrunk .search-bar,
+.sidebar-shrunk .contacts-list li {
+    display: flex;
+}
+
+.sidebar-shrunk .contacts-list .icon {
+    font-size: 2rem; /* Increase icon size for visibility */
+    margin-right: 0;
+    margin-left: 0;
+}

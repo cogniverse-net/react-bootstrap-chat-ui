@@ -1,0 +1,86 @@
+/* themes.css */
+
+/* Light Theme */
+:root {
+    --bg-color: #f5f5f5;
+    --sidebar-bg: #f0f0f0;
+    --sidebar-text: #333333;
+    --sidebar-accent: #6200ee;
+    --chat-bg: #ffffff;
+    --bubble-sent: #3f51b5;
+    --bubble-received: #4caf50;
+    --btn-primary: #6200ee;
+    --btn-secondary: #9e9e9e;
+    --navbar-bg: #f0f0f0;
+    --navbar-text: #333333;
+    --navbar-link: #6200ee;
+    --navbar-link-active: #3700b3;
+}
+
+/* Dark Theme */
+[data-theme='dark'] {
+    --bg-color: #121212;
+    --sidebar-bg: #1e1e1e;
+    --sidebar-text: #e0e0e0;
+    --sidebar-accent: #bb86fc;
+    --chat-bg: #1e1e1e;
+    --bubble-sent: #0039cb;
+    --bubble-received: #018786;
+    --btn-primary: #bb86fc;
+    --btn-secondary: #616161;
+    --navbar-bg: #121212;
+    --navbar-text: #e0e0e0;
+    --navbar-link: #bb86fc;
+    --navbar-link-active: #3700b3;
+}
+
+/* Blue Theme */
+[data-theme='blue'] {
+    --bg-color: #e3f2fd;
+    --sidebar-bg: #bbdefb;
+    --sidebar-text: #0d47a1;
+    --sidebar-accent: #0d47a1;
+    --chat-bg: #bbdefb;
+    --bubble-sent: #1976d2;
+    --bubble-received: #0288d1;
+    --btn-primary: #0288d1;
+    --btn-secondary: #e1f5fe;
+    --navbar-bg: #0d47a1;
+    --navbar-text: #ffffff;
+    --navbar-link: #81d4fa;
+    --navbar-link-active: #4a148c;
+}
+
+/* Green Theme */
+[data-theme='green'] {
+    --bg-color: #e8f5e9;
+    --sidebar-bg: #c8e6c9;
+    --sidebar-text: #2e7d32;
+    --sidebar-accent: #2e7d32;
+    --chat-bg: #c8e6c9;
+    --bubble-sent: #388e3c;
+    --bubble-received: #4caf50;
+    --btn-primary: #4caf50;
+    --btn-secondary: #a5d6a7;
+    --navbar-bg: #2e7d32;
+    --navbar-text: #ffffff;
+    --navbar-link: #a5d6a7;
+    --navbar-link-active: #004d40;
+}
+
+/* Purple Theme */
+[data-theme='purple'] {
+    --bg-color: #f3e5f5;
+    --sidebar-bg: #d1c4e9;
+    --sidebar-text: #6a1b9a;
+    --sidebar-accent: #6a1b9a;
+    --chat-bg: #d1c4e9;
+    --bubble-sent: #8e24aa;
+    --bubble-received: #ab47bc;
+    --btn-primary: #8e24aa;
+    --btn-secondary: #f3e5f5;
+    --navbar-bg: #6a1b9a;
+    --navbar-text: #ffffff;
+    --navbar-link: #e1bee7;
+    --navbar-link-active: #4a148c;
+}
