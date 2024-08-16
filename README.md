@@ -46,13 +46,11 @@ To get started with ChatApp, follow these steps:
 ## Project Structure
 
 - `src/`
-  - `components/`
-    - `Sidebar.js`: The collapsible sidebar component.
-    - `ChatWindow.js`: The main chat window where messages are displayed.
-    - `RightSection.js`: The toggleable right-hand section.
+  - `components/`       
+    - `Sidebar`: The collapsible sidebar component.
+    - `ChatWindow`: The main chat window where messages are displayed.
+    - `RightSection`: The toggleable right-hand section.
   - `styles/`
-    - `Sidebar.css`: Styling specific to the sidebar component.
-    - `ChatApp.css`: Global styling for the ChatApp.
     - `themes.css`: Theme variables for the application.
   - `App.js`: Main entry point for the application.
 
