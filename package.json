@@ -1,6 +1,11 @@
 {
   "name": "react-bootstrap-chat-ui",
   "version": "1.0.0",
+  "organization": {
+    "name": "Cogniverse.net",
+    "website": "https://cogniverse.net",
+    "contact": "code@cogniverse.net"
+  },
   "private": true,
   "dependencies": {
     "@emoji-mart/react": "^1.1.1",
